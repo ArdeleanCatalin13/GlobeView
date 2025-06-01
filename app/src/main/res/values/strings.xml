@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GlobeView</string>
+    <!-- In res/values/strings.xml -->
+    <string name="country_flag_description">Flag of the country</string>
+    <string name="key_facts">Key Facts</string>
+    <string name="capital_label">Capital:</string>
+    <string name="continent_label">Continent:</string>
+    <string name="currency_label">Currency:</string>
+    <string name="population_label">Population:</string>
+    <string name="size_label">Size:</string>
+    <string name="current_president_label">Current President</string>
+    <string name="president_s_picture">Picture of the president</string>
+    <string name="covid_19_stats_label">COVID-19 Statistics</string>
+    <string name="data_not_available">N/A</string>
+    <string name="gender_label">Gender: %s</string>
+    <string name="in_office_since">In office since: %s</string>
+</resources>

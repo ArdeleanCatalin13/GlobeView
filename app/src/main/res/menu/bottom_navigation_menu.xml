@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/countryOverviewFragment"
+        android:title="Countries"
+        android:clickable="true" android:focusable="true"
+        android:icon="@drawable/baseline_headlines_24"/>
+
+    <item
+        android:id="@+id/favoriteFragment"
+        android:title="Favorites"
+        android:clickable="true" android:focusable="true"
+        android:icon="@drawable/baseline_favorite_24"/>
+
+    <item
+        android:id="@+id/searchFragment2"
+        android:title="Search"
+        android:clickable="true" android:focusable="true"
+        android:icon="@drawable/baseline_search_24"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:clickable="true" android:focusable="true"
+        android:icon="@drawable/baseline_settings_24"/>
+
+</menu>

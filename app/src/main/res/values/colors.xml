@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Azure Explorer - Light Theme -->
+    <color name="black">#000000</color>">
+    <color name="white">#FFFFFF</color>">
+    <color name="azure_primary_light">#0077C2</color>
+    <color name="azure_on_primary_light">#FFFFFF</color>
+    <color name="azure_secondary_light">#00A896</color>
+    <color name="azure_on_secondary_light">#FFFFFF</color>
+    <color name="azure_background_light">#F6F8FA</color>
+    <color name="azure_on_background_light">#24292F</color>
+    <color name="azure_surface_light">#FFFFFF</color>
+    <color name="azure_on_surface_light">#24292F</color>
+    <color name="azure_accent_light">#FF8C00</color>
+
+    <color name="azure_primary_dark">#58A6FF</color>
+    <color name="azure_on_primary_dark">#0D1117</color>
+    <color name="azure_secondary_dark">#3FB950</color>
+    <color name="azure_on_secondary_dark">#FFFFFF</color>
+    <color name="azure_background_dark">#0D1117</color>
+    <color name="azure_on_background_dark">#FFFFFF</color>
+    <color name="azure_surface_dark">#161B22</color>
+    <color name="azure_on_surface_dark">#C9D1D9</color>
+    <color name="azure_accent_dark">#FFA500</color>
+
+    <!-- For Bottom Nav -->
+    <color name="bottom_nav_background">@color/azure_surface_light</color>
+    <color name="bottom_nav_item_tint">@color/azure_primary_light</color>
+    <color name="bottom_nav_active_indicator">@color/azure_accent_light</color>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GlobeView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/azure_primary_dark</item> <!-- Will use _dark in night mode if names match and defined in values-night -->
+        <item name="colorOnPrimary">@color/azure_on_primary_dark</item>
+        <item name="colorSecondary">@color/azure_secondary_dark</item>
+        <item name="colorOnSecondary">@color/azure_on_secondary_dark</item>
+        <item name="android:colorBackground">@color/azure_background_dark</item>
+        <item name="colorOnBackground">@color/azure_on_background_dark</item>
+        <item name="colorSurface">@color/azure_surface_dark</item>
+        <item name="colorOnSurface">@color/azure_on_surface_dark</item>
+        <item name="colorAccent">@color/azure_accent_dark</item> <!-- For general accenting -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Or ?attr/colorSurface for M3 style -->
+    </style>
+
+    <style name="Theme.GlobeView" parent="Base.Theme.GlobeView" />
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/bottom_nav_active_indicator</item>
+    </style>
+</resources>

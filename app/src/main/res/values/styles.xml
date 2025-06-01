@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SectionTitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="DetailLabel" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item> <!-- Use wrap_content for grid layout -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal</item> <!-- For GridLayout -->
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="DetailValue" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item> <!-- Use wrap_content for grid layout -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal</item> <!-- For GridLayout -->
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
+</resources>

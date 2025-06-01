@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-night/colors.xml -->
+<resources>
+    <!-- Azure Explorer - Dark Theme -->
+    <color name="azure_primary_dark">#58A6FF</color>
+    <color name="azure_on_primary_dark">#0D1117</color>
+    <color name="azure_secondary_dark">#3FB950</color>
+    <color name="azure_on_secondary_dark">#FFFFFF</color>
+    <color name="azure_background_dark">#0D1117</color>
+    <color name="azure_on_background_dark">#FFFFFF</color>
+    <color name="azure_surface_dark">#161B22</color>
+    <color name="azure_on_surface_dark">#C9D1D9</color>
+    <color name="azure_accent_dark">#FFA500</color>
+
+    <!-- For Bottom Nav -->
+    <color name="bottom_nav_background">@color/azure_surface_dark</color>
+    <color name="bottom_nav_item_tint">@color/azure_primary_dark</color>
+    <color name="bottom_nav_active_indicator">@color/azure_accent_dark</color>
+</resources>

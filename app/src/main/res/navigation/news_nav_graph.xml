@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/countryOverviewFragment">
+
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.example.globeview.ui.fragments.CountryFragment"
+        android:label="CountryFragment" >
+        <argument
+            android:name="country"
+            app:argType="com.example.globeview.models.Data"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.globeview.ui.fragments.FavoriteFragment"
+        android:label="FavoriteFragment" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_countryFragment3"
+            app:destination="@id/countryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryOverviewFragment"
+        android:name="com.example.globeview.ui.fragments.CountryOverviewFragment"
+        android:label="CountryOverviewFragment" >
+        <action
+            android:id="@+id/action_countryOverviewFragment_to_countryFragment3"
+            app:destination="@id/countryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment2"
+        android:name="com.example.globeview.ui.fragments.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment2_to_countryFragment2"
+            app:destination="@id/countryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.globeview.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment2_to_countryFragment3"
+            app:destination="@id/countryFragment" />
+    </fragment>
+</navigation>
